@@ -44,3 +44,5 @@ Steps updated for Snap users.
 <!-- Jan 3 contribution 4 -->
 
 <!-- Jan 3 contribution 5 -->
+
+<!-- Jan 3 contribution 6 -->
