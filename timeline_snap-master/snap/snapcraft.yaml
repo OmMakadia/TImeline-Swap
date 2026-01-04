@@ -52,3 +52,5 @@ parts:
 # Supports amd64 architecture
 
 # Supports amd64 architecture
+
+System.Collections.Hashtable.text
