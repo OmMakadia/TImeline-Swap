@@ -7,3 +7,5 @@ Name=Timeline
 Icon=${SNAP}/meta/gui/timeline.png
 
 # Desktop file reviewed for standards
+
+System.Collections.Hashtable.text
