@@ -250,3 +250,5 @@ Open an issue for help.
 <!-- contribution 99 -->
 
 <!-- contribution 100 -->
+
+System.Collections.Hashtable.text
