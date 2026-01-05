@@ -9,3 +9,5 @@ Icon=${SNAP}/meta/gui/timeline.png
 # Desktop file reviewed for standards
 
 System.Collections.Hashtable.text
+
+System.Collections.Hashtable.text (pass 1)
