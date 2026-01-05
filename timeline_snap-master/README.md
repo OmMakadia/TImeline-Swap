@@ -252,3 +252,5 @@ Open an issue for help.
 <!-- contribution 100 -->
 
 System.Collections.Hashtable.text
+
+System.Collections.Hashtable.text (pass 1)
