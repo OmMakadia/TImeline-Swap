@@ -54,3 +54,5 @@ parts:
 # Supports amd64 architecture
 
 System.Collections.Hashtable.text
+
+System.Collections.Hashtable.text (pass 1)
