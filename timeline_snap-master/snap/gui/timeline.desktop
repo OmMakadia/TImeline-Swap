@@ -5,3 +5,5 @@ Terminal=false
 Exec=timeline
 Name=Timeline
 Icon=${SNAP}/meta/gui/timeline.png
+
+# Desktop file reviewed for standards
