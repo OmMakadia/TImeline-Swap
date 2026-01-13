@@ -4,3 +4,6 @@ This project creates a working snap of [Timeline](http://thetimelineproj.sourcef
 [![Snap Status](https://build.snapcraft.io/badge/thetimelineproj/timeline_snap.svg)](https://build.snapcraft.io/user/thetimelineproj/timeline_snap)
 ## Usage
 Updated usage instructions.
+
+## Platform Support
+Linux Snap supported.
