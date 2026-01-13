@@ -1,0 +1,44 @@
+name: timeline
+version: '2.11.0'
+summary: Timeline
+description: |
+  Timeline is a cross-platform application for displaying and navigating events on a timeline
+
+grade: stable
+confinement: strict
+base: core22
+
+architectures:
+  - build-on: amd64
+
+apps:
+  timeline:
+    command: var/opt/timeline/source/timeline.py
+    extensions: [gnome]
+    plugs:
+      - x11
+      - desktop
+      - desktop-legacy
+      - wayland
+      - unity7
+      - home
+      - removable-media
+      - gsettings
+
+parts:
+  timeline:
+    source: https://downloads.sourceforge.net/project/thetimelineproj/thetimelineproj/$SNAPCRAFT_PROJECT_VERSION/timeline-$SNAPCRAFT_PROJECT_VERSION.zip
+    plugin: python
+    python-packages:
+      - humblewx
+      - icalendar
+      - Markdown
+      - pysvg-py3
+      - Pillow
+      - https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-22.04/wxPython-4.2.1-cp310-cp310-linux_x86_64.whl
+    stage-packages:
+      - libsdl2-2.0-0
+    override-build: |
+      craftctl default
+      mkdir -p $CRAFT_PART_INSTALL/var/opt/timeline
+      cp -R timeline-$SNAPCRAFT_PROJECT_VERSION/* $CRAFT_PART_INSTALL/var/opt/timeline
