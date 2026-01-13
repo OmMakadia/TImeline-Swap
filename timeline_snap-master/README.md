@@ -10,3 +10,5 @@ Linux Snap supported.
 
 ## Support
 Open an issue for help.
+
+<!-- doc update 1 -->
