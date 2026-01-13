@@ -1,0 +1,3 @@
+
+## Update
+Improved documentation structure.
