@@ -48,3 +48,5 @@ parts:
 # Updated description for better clarity
 
 # Build process verified
+
+# Supports amd64 architecture
