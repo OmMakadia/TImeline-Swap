@@ -12,3 +12,5 @@ Linux Snap supported.
 Open an issue for help.
 
 <!-- doc update 1 -->
+
+<!-- doc update 2 -->
