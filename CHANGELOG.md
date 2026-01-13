@@ -1,0 +1,2 @@
+# Changelog
+- Initial Snap release
