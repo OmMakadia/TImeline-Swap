@@ -44,3 +44,5 @@ parts:
       cp -R timeline-$SNAPCRAFT_PROJECT_VERSION/* $CRAFT_PART_INSTALL/var/opt/timeline
 
 # Updated description for better clarity
+
+# Updated description for better clarity
