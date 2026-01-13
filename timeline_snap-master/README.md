@@ -7,3 +7,6 @@ Updated usage instructions.
 
 ## Platform Support
 Linux Snap supported.
+
+## Support
+Open an issue for help.
